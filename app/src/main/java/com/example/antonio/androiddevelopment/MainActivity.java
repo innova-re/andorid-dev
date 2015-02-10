@@ -1,10 +1,12 @@
 package com.example.antonio.androiddevelopment;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 
 public class MainActivity extends Activity {
@@ -12,6 +14,20 @@ public class MainActivity extends Activity {
     Button btnGreen;
     Button btnBlue;
     LinearLayout background;
+    public final static String EXTRA_MESSAGE = "com.example.antonio.android-development";
+
+    public void sendMessage(View view) {
+
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+
+        EditText editText = (EditText) findViewById(R.id.edit_message);
+
+        String message = editText.getText().toString();
+
+        intent.putExtra(EXTRA_MESSAGE, message);
+
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
