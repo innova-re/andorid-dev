@@ -20,6 +20,9 @@ gen/
 build/
 /*/build/
 
+# Directory-based project format
+.idea/
+
 # Local configuration file (sdk path, etc)
 local.properties
 
