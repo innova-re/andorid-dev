@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">Android Development</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="button_green">Change to Green</string>
+    <string name="button_blue">Change to Blue</string>
 
 </resources>
