@@ -35,6 +35,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/change_tip_text_view"
+        android:id="@+id/changeTipTextView" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeTipSeekBar"
+        android:progress="15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/final_text_view"
         android:id="@+id/finalBillTextView" />
 
