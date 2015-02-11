@@ -6,11 +6,61 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bill_text_view"
+        android:id="@+id/billTextView" />
+
     <EditText
-        android:id="@+id/edit_message"
-        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/billEditText"
+        android:text="@string/bill_edit_text"
+        android:inputType="numberDecimal" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/tip_text_view"
+        android:id="@+id/tipTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipEditText"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_tip_text_view"
+        android:id="@+id/changeTipTextView" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeTipSeekBar"
+        android:progress="15"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/final_text_view"
+        android:id="@+id/finalBillTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalBillEditText"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
         android:text="@string/edit_message" />
     
     <Button
