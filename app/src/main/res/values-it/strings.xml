@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Development</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="button_green">Sfondo Verde</string>
+    <string name="button_blue">Sfondo Blu</string>
+    <string name="button_send">Spedisci</string>
+    <string name="edit_message">Scrivi un messaggio</string>
+    <string name="title_activity_display_message">Mio messaggio</string>
+    <string name="hello_world">Ciao</string>
+
+</resources>
